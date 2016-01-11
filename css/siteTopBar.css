@@ -1,0 +1,70 @@
+#siteTopBar{
+    width: 150px;
+    height: 100%;
+    float: left;
+    background-color: #FFFFFF;
+    position: fixed;  /*不随滑动条滚动*/
+}
+
+.site-logo{
+    height: 160px;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+    background-color: #2DA8E2;
+    border-radius: 100%;
+    float: left;
+    margin-right: 8px;
+}
+
+.menu {
+    display: inline-block;
+    list-style: none;
+}
+
+.menu li{
+    margin-bottom: 16px;
+}
+
+.menu-item{
+    width: 100px;
+    height: 25px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    color: #555;
+}
+.left-menu{
+    padding-left: 20px;
+}
+
+/*#show-more{*/
+    /*float: left;*/
+/*}*/
+/*.sign{*/
+    /*/!*float: left;*!/*/
+    /*border-bottom: 4px solid transparent;*/
+    /*border-left: 6px solid rgb(124, 124, 124);*/
+    /*border-top: 4px solid transparent;*/
+    /*/!*position: relative;*!/*/
+    /*/!*right: -5px;*!/*/
+    /*/!*top: 16px;*!/*/
+/*}*/
+
+.left-search{
+    /*background: url("/src/search.png");*/
+    margin-left: 12px;
+    margin-top: 25px;
+}
+.left-search input{
+    padding-left: 25px;
+    width: 100px;
+    height: 30px;
+    background: url("../src/search.png") center left no-repeat;
+    line-height: 30px;
+    border: 1px solid #aba5a6;
+}

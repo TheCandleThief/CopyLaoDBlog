@@ -1,0 +1,161 @@
+body,div,ul,li,a,h3{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: inherit,serif;
+    font-size: 100%;
+    background-color: #F3F3F3;
+    margin: 0 auto;
+    color: #555;
+}
+
+h3{
+    width: 78px;
+    border-bottom: 3px solid #2DA8E2;
+    padding-bottom: 15px;
+}
+
+#wrapper{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#main{
+    width: 100%;
+    height: auto;
+    float: left;
+    /*position: relative;*/
+    overflow: hidden;
+}
+
+.wrap{
+    background: #fff none repeat scroll 0 0;
+    margin-left: 170px;
+    margin-right: 290px;
+    min-height: 800px;
+    padding: 20px 20px 40px ;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.mb30{
+    margin-bottom: 20px;
+}
+
+.title{
+    /*padding-bottom: 15px;*/
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 29px;
+}
+
+.index-sticky{
+    height: 400px;
+}
+.sticky1{
+    width: 50%;
+    height: 305px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+.sticky p{
+    background: #fff none repeat scroll 0 0;
+    position: absolute;
+    font-size: 18px;
+    left: 0;
+    opacity: 0.8;
+    height: 40px;
+    line-height: 40px;
+}
+#s1 img{
+    width: 100%;
+    height: 100%;
+}
+#s1 p{
+    bottom: 13%;
+}
+
+.sticky2 ul{
+    width: 50%;
+    height: 305px;
+    float: left;
+}
+.sticky2 li:nth-child(1){
+     width: 100%;
+     height: 50%;
+     overflow: hidden;
+     position: relative;
+     /*float: left;*/
+ }
+.sticky2 li:nth-child(2){
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    position: relative;
+    /*float: left;*/
+}
+#s2 ul li img{
+    width: 100%;
+    height: 100%;
+}
+
+#s2-p{
+    bottom: 30%;
+}
+#s3-p{
+    bottom: 13%;
+    left: 5px;
+}
+
+
+.index-post{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.content{
+    border-bottom: 2px dashed #dddddd;
+    width: 100%;
+    height: 230px;
+}
+.content-header a{
+    text-decoration: none;
+    color: #32A5E7;
+}
+
+.content-img{
+    width: 250px;
+    height: 170px;
+    float: left;
+    /*position: relative;*/
+    overflow: hidden;
+    text-align: center;
+    margin-right: 15px;
+}
+.content-img img{
+    width: 100%;
+}
+
+.content-note{
+    width: 380px;
+    height: 180px;
+    /*position: relative;*/
+    float: right;
+    padding-right: 20px;
+    color: #888888;
+}
+.content-note span{
+    float: right;
+    margin-right: 30px;
+}
+.content-note span a{
+    text-decoration: none;
+    color: #555555;
+}
